@@ -1,0 +1,29 @@
+{
+  "name": "@lemmalabs/lonker",
+  "author": "Andrew Craven",
+  "version": "1.0.0",
+  "description": "Typescript augmented console logging library",
+  "repository": {
+    "type": "git",
+    "url": "github:andyrocks/lonker"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tslint \"*.ts\"",
+    "build": "npm run build-ts",
+    "build-ts": "rm -rf dist && tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/node19": "^19.1.4",
+    "@types/node": "^22.5.5",
+    "date-fns": "^4.0.0",
+    "node": "^22.8.0",
+    "tsconfig": "^7.0.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3"
+  }
+}
